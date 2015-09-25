@@ -1,0 +1,18 @@
+{
+  "name": "nflnotify",
+  "version": "0.1.0",
+  "description": "NFL Scores as Growl Notifications",
+  "author": "Cody Haines <me@codyhaines.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chaines/nflnotify.git"
+  },
+  "main": "./nflnotify.js",
+  "license": "MIT",
+  "dependencies": {
+    "growl": "^1.8.1",
+    "minimist": "^1.2.0",
+    "request-promise": "^0.4.3",
+    "xml2js": "^0.4.12"
+  }
+}
